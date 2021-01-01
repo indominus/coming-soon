@@ -6,11 +6,9 @@ if (!Encore.isRuntimeEnvironmentConfigured()) {
     Encore.configureRuntimeEnvironment(process.env.NODE_ENV || 'dev');
 }
 
-const publicPath = Encore.isProduction() ? '/build' : '/devs/coming-soon/public/build';
-
 Encore
     .setManifestKeyPrefix('')
-    .setPublicPath(publicPath)
+    .setPublicPath('/build')
     .setOutputPath('public/build/')
 
     .addEntry('app', './assets/js/app.js')
