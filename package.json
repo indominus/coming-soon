@@ -19,6 +19,7 @@
         "build": "encore production --progress"
     },
     "dependencies": {
+        "is-svg": "^4.2.2",
         "node-notifier": "^8.0.1"
     }
 }
