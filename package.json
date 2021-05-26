@@ -19,7 +19,9 @@
         "build": "encore production --progress"
     },
     "dependencies": {
+        "dns-packet": "^5.2.2",
         "is-svg": "^4.2.2",
-        "node-notifier": "^8.0.1"
+        "node-notifier": "^8.0.1",
+        "postcss": "^8.2.10"
     }
 }
